@@ -4,28 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "421436bcc652ef07",
+        "id": "10edf76c3b82c674",
         "type": "leaf",
+        "dimension": 37.719298245614034,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机/语言/markdown/markdown语法.md",
+            "file": "计算机/语言/markdown/markdown标准语法.md",
             "mode": "source"
           }
         },
-        "group": "d8dbe52b2b9f4c2f"
+        "group": "93ddd5ea2ac687c4"
       },
       {
-        "id": "10edf76c3b82c674",
+        "id": "695eccd479b597fe",
         "type": "leaf",
+        "dimension": 44.73684210526316,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "计算机/语言/markdown/markdown语法.md",
+            "file": "计算机/语言/markdown/markdown标准语法.md",
             "mode": "preview"
           }
         },
-        "group": "d8dbe52b2b9f4c2f"
+        "group": "93ddd5ea2ac687c4"
+      },
+      {
+        "id": "7f34bcde7e5876c5",
+        "type": "leaf",
+        "dimension": 17.543859649122805,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/语言/markdown/markdown语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,12 +109,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "10edf76c3b82c674",
+  "active": "7f34bcde7e5876c5",
   "lastOpenFiles": [
+    "计算机/语言/markdown/markdown标准语法.md",
+    "README.md",
+    "计算机/语言/markdown/markdown扩展语法.md",
     "计算机/语言/markdown/markdown语法.md",
     "英语/词性简写.md",
     "英语/未命名.md",
-    "README.md",
     "计算机/语言/markdown/未命名.md"
   ]
 }
