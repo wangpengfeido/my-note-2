@@ -1,3 +1,3 @@
 #! /bin/bash
 
-node ../git-hooks/pre-commit.js
+node ./git-hooks/pre-commit.js
