@@ -54,3 +54,29 @@
 }
 
 ```
+
+### vue
+
+```
+{
+  "Print to console": {
+    "prefix": "vue",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  name: \"\",",
+      "};",
+      "</script>",
+      "",
+      "<style>",
+      "</style>",
+      ""
+    ],
+    "description": "vue 模板"
+  }
+}
+```
