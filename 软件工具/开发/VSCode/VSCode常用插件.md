@@ -5,6 +5,10 @@
 ```shell
 # 注释更好地展示
 code --install-extension aaron-bond.better-comments
+# 颜色选择
+code --install-extension adam-watters.vscode-color-pick
+# matlab 代码格式化
+code --install-extension AffenWiesel.matlab-formatter
 # eclipse 热键
 code --install-extension alphabotsec.vscode-eclipse-keybindings
 # css 颜色展示
@@ -23,6 +27,10 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-rename-tag
 # 运行代码
 code --install-extension formulahendry.code-runner
+# flow.js 类型支持
+code --install-extension gcazaciuc.vscode-flow-ide
+# matlab 支持
+code --install-extension Gimly81.matlab
 # github 主题
 code --install-extension GitHub.github-vscode-theme
 # go 语言支持
@@ -33,6 +41,8 @@ code --install-extension Gruntfuggly.todo-tree
 code --install-extension hilleer.yaml-plus-json
 # AppleScript 支持
 code --install-extension idleberg.applescript
+# latex 支持
+code --install-extension James-Yu.latex-workshop
 # 快速搜索 node_modules 文件
 code --install-extension jasonnutter.search-node-modules
 # svg 图片展示与编辑
