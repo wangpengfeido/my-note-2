@@ -23,12 +23,12 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 # prettier 插件
 code --install-extension esbenp.prettier-vscode
+# flow.js 类型支持
+code --install-extension flowtype.flow-for-vscode
 # 自动修改 html 头尾对应标签
 code --install-extension formulahendry.auto-rename-tag
 # 运行代码
 code --install-extension formulahendry.code-runner
-# flow.js 类型支持
-code --install-extension gcazaciuc.vscode-flow-ide
 # matlab 支持
 code --install-extension Gimly81.matlab
 # github 主题
