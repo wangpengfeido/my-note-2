@@ -18,6 +18,10 @@
   "prettier.singleQuote": true,
   "prettier.printWidth": 100,
   // 开启 eslint 的代码格式化（否则格式化选项中不会出现 eslint）
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  // terminal 中添加 git bash
+  "Git-Bash": {
+    "path": "D:\\software\\Git\\bin\\bash.exe"
+  }
 }
 ```
