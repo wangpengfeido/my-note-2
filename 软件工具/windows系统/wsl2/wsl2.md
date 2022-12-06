@@ -39,3 +39,7 @@ wsl --unregister Legacy
 ### wsl --list --online
 
 列出线上可用的 linux 发行版。
+
+### wsl --update
+
+更新 wsl 内核。
