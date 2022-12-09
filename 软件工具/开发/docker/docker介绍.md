@@ -177,4 +177,5 @@ docker container cp [参数] 源路径 containerid:路径
 
 - 开启 hyper-v。
 - 安装 wsl2。
+  - 如果仍出错，执行`netsh winsock reset`，不用重启系统。
 - 以管理员身份运行。
