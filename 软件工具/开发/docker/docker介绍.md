@@ -173,9 +173,17 @@ docker container cp [参数] 源路径 containerid:路径
 
 ## 常见问题
 
-### window 无法启动
+### windows 无法启动
 
 - 开启 hyper-v。
 - 安装 wsl2。
   - 如果仍出错，执行`netsh winsock reset`，不用重启系统。
 - 以管理员身份运行。
+
+### windows 运行 docker 命令报错
+
+```
+error during connect: In the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json": open //./pipe/docker_engine: The system cannot find the file specified.
+```
+
+以管理员身份运行 docker desktop。
