@@ -1,5 +1,7 @@
 # docker 命令
 
+<https://docs.docker.com/engine/reference/run/>
+
 ## 通用
 
 ### docker version
@@ -22,7 +24,7 @@
 
 列出本机所有 image 文件。
 
-### docker run [参数] [imageName] [在容器中执行的命令]
+### docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 或`docker container run [参数] [imageName] [在容器中执行的命令]`
 
@@ -30,16 +32,19 @@
 
 参数：
 
-- **--name** 指定容器名称
-- **-p 主机(宿主)端口:容器端口** 指定端口映射。主机端口即暴露出的端口；容器端口即内部程序监听的端口。
-- **-d** 后台模式
-- **-t** 在新容器内指定一个伪终端或终端。通常与`-i`一起使用。
-- **-i** 允许你对容器内的标准输入 (STDIN) 进行交互。通常与`-t`一起使用。
-- **-P** 随机端口映射
-- **-v,--volume 源目录:容器目录** 进行目录映射
-- **--rm** 容器终止运行后，自动删除容器文件
-- **--env key=value** 设置环境变量
-- **--link 容器名:别名** 添加链接到另一个容器
+- `--name` 指定容器名称。
+- `-p 主机(宿主)端口:容器端口` 指定端口映射。主机端口即暴露出的端口；容器端口即内部程序监听的端口。
+- `-P` 随机端口映射。
+- `--env,-e` 设置环境变量。
+- `-d` 后台模式。
+- `-t` 在新容器内指定一个伪终端或终端。通常与`-i`一起使用。
+- `-i` 允许你对容器内的标准输入 (STDIN) 进行交互。通常与`-t`一起使用。
+- `--volume,-v 源目录:容器目录` 进行目录映射。
+- `--rm` 容器终止运行后，自动删除容器文件。
+- `--env key=value` 设置环境变量。
+- `--link 源容器名或id:源容器在接收容器中的别名` 添加链接到源容器（被链接的容器）。这实际上是给接受容器的`/etc/hosts`添加解析实现通信。
+- `-m, --memory=""` 限制内存。支持单位 b/k/m/g。
+- `--cpus=0.000` 限制 cpu 个数。
 
 如果以终端模式运行，可以通过运行`exit`或`ctrl+d`关闭容器。
 
@@ -61,7 +66,7 @@
 
 参数：
 
-- **-t [REGISTRYHOST/][username/]NAME[:TAG]** 指定名称及标签。默认标签为 latest 。可以指定多个标签
+- `-t [REGISTRYHOST/][username/]NAME[:TAG]` 指定名称及标签。默认标签为 latest 。可以指定多个标签
 - `-f 路径`指定 Dockerfile（默认使用目录下的 Dockerfile）。
 
 ### docker tag [参数] imagename[:TAG] [REGISTRYHOST/][username/]NAME[:TAG]
@@ -98,11 +103,19 @@
 
 ### docker container ls [OPTIONS]
 
-列出所有容器 。
+列出容器 。
+
+参数：
+
+- `--all, -a` 列出所有 container。
 
 ### docker container start [OPTIONS] CONTAINER [CONTAINER...]
 
 启动容器。
+
+### docker container stop [OPTIONS] CONTAINER [CONTAINER...]
+
+停止容器。
 
 ### docker start 容器\_id
 
@@ -144,7 +157,7 @@
 
 参数：
 
-- **-a,--all** 查看所有（包括未运行）容器文件
+- `-a,--all` 查看所有（包括未运行）容器文件
 
 ### docker rm [参数] 容器\_id[,...]
 
