@@ -46,6 +46,7 @@
 - `-m, --memory=""` 限制内存。支持单位 b/k/m/g。
 - `--cpus=0.000` 限制 cpu 个数。
 - `--privileged` 给予容器特权。使容器能做宿主机能做的事情，比如访问共享的系统内核，在容器中运行 docker 等。
+- `--restart=always` container 退出时如何重启。
 
 如果以终端模式运行，可以通过运行`exit`或`ctrl+d`关闭容器。
 
