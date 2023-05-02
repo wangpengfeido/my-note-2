@@ -11,9 +11,17 @@ apt install lightdm
 ## 启动
 
 ```
-sudo service lightdm start
+systemctl start lightdm.service
 ```
 
+## 切换
+
+按`ctrl+alt+f1`在 terminal 间切换。
+
+按`ctrl+alt+f7`切换回图形界面。
+
+## 停止
+
 ```
-sudo service lightdm stop
+systemctl stop lightdm.service
 ```
