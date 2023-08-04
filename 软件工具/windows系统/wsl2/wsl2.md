@@ -32,6 +32,10 @@ wsl --unregister Legacy
 
 ## 命令
 
+### wsl
+
+进入 wsl
+
 ### wsl --list
 
 列出已安装的 linux 发行版。
