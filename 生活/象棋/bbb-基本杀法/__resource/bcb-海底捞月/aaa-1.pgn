@@ -1,0 +1,22 @@
+[Game "Chinese Chess"]
+[Event "?"]
+[Site "?"]
+[Date "2023.10.02"]
+[Round "?"]
+[Red "?"]
+[RedElo "?"]
+[RedTitle "?"]
+[Black "?"]
+[BlackElo "?"]
+[BlackTitle "?"]
+[Result "1-0"]
+[TimeControl "?"]
+[ECCO "?"]
+[Opening "?"]
+[Variation "?"]
+[FEN "3k5/9/9/9/9/4R4/9/3r3C1/9/4K4 r"]
+[SetUp "1"]
+
+1. 炮二进二 将４进１ 2. 车五进四 将４退１ 3. 炮二平九 车４平１ 
+4. 炮九进五 车１平４ 5. 车五进一 将４进１ 6. 炮九平六 车４平７ 
+7. 车五退五 车７退５ 8. 车五平六 车７平４ 9. 炮六退二 
