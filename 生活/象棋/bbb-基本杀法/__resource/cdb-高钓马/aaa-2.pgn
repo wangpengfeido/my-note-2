@@ -1,0 +1,22 @@
+[Game "Chinese Chess"]
+[Event "?"]
+[Site "?"]
+[Date "2023.10.05"]
+[Round "?"]
+[Red "?"]
+[RedElo "?"]
+[RedTitle "?"]
+[Black "?"]
+[BlackElo "?"]
+[BlackTitle "?"]
+[Result "?"]
+[TimeControl "?"]
+[ECCO "?"]
+[Opening "?"]
+[Variation "?"]
+[FEN "4ka3/2c1a4/4b4/4C2R1/2r3b2/7N1/9/4BR3/1n1rA4/2B1KA3 r"]
+[SetUp "1"]
+
+1. 车四进七 将５平６ 2. 车二进三 象５退７ 3. 车二平三 将６进１ 
+4. 马二进三 将６进１ 5. 车三退二 将６退１ 6. 车三平二 将６退１ 
+7. 车二进二 
