@@ -1,0 +1,32 @@
+{
+  // 双击打开文件
+  "workbench.list.openMode": "doubleClick",
+  // tab 对应的 space 数
+  "editor.tabSize": 2,
+  // snippet 展示位置：顶部
+  "editor.snippetSuggestions": "top",
+  // 代码建议首选：第一个
+  "editor.suggestSelection": "first",
+  // 将空格渲染成点：全部
+  "editor.renderWhitespace": "all",
+  // diff 时忽略空格：关闭
+  "diffEditor.ignoreTrimWhitespace": false,
+  // ---- 需要安装主题插件 -----------------------------------
+  // 主题
+  "workbench.colorTheme": "GitHub Light Default",
+  // icon 主题
+  "workbench.iconTheme": "vscode-icons",
+  // ---- prettier 插件  ------------------------------------------------
+  // 单引号
+  "prettier.singleQuote": true,
+  // 行字符
+  "prettier.printWidth": 100,
+  // ---- eslint 插件  ------------------------------------------------
+  // 开启 eslint 的代码格式化（否则格式化选项中不会出现 eslint）
+  "eslint.format.enable": true,
+  // ---- markdown-preview-enhanced 插件 -----------------------
+  // css 样式
+  "markdown-preview-enhanced.previewTheme": "vue.css",
+  // md 中的换行导致渲染中的换行：关闭
+  "markdown-preview-enhanced.breakOnSingleNewLine": false
+}
