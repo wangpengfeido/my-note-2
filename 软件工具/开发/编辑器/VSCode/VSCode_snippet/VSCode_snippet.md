@@ -13,8 +13,6 @@
       "interface IProps${1:ComponentName} {",
       "}",
       "",
-      "",
-      "",
       "const ${1:ComponentName}: FC<IProps${1:ComponentName}> = () => {",
       "  return <></>;",
       "};",
