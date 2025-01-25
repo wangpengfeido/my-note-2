@@ -6,6 +6,8 @@ ssh-keygen -t [rsa|dsa]
 
 windows ssh key 存放目录：C://Users/用户名/.ssh/
 
+mac ssh key 存放目录：~/.ssh/
+
 ### .gitignore 无效
 
 .gitignore 只能忽略那些原来没有被 track 的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore 是无效的。
